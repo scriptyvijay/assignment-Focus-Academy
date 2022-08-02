@@ -9,8 +9,8 @@ const App = () => {
 	return (
 		<BrowserRouter>
 			<Routes>
-				<Route path="/" element={<Login loggedIn={loggedIn} setLoggedIn={setLoggedIn} />} />
-				<Route path="/home" element={loggedIn ? <Home loggedIn={loggedIn} setLoggedIn={setLoggedIn} /> : <Login loggedIn={loggedIn} setLoggedIn={setLoggedIn} />} />
+				<Route path="assignment-Focus-Academy/" element={<Login loggedIn={loggedIn} setLoggedIn={setLoggedIn} />} />
+				<Route path="assignment-Focus-Academy/home" element={loggedIn ? <Home loggedIn={loggedIn} setLoggedIn={setLoggedIn} /> : <Login loggedIn={loggedIn} setLoggedIn={setLoggedIn} />} />
 			</Routes>
 		</BrowserRouter>
 	);
