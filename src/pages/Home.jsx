@@ -56,6 +56,8 @@ const Home = (props) => {
 			});
 	}, []);
 
+	// To fetch more data
+
 	const fetchMoreData = () => {
 		fetch("https://randomuser.me/api?results=10")
 			.then((res) => res.json())
